@@ -26,7 +26,7 @@ font-family: 'PT Sans', sans-serif; */
 .header {
     /*position: sticky;
     top: 0;*/
-    background-color: #0A100D;
+    background-image: linear-gradient(  black, #252424);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -155,6 +155,7 @@ font-family: 'PT Sans', sans-serif; */
 
 }
 
+
 /*Imagenes*/
 
 main {
@@ -178,6 +179,7 @@ button {
     background-color: #0A100D;
     color: #B9BAA3;
     margin: 10px;
+    border-radius: 15px;
 
 }
 
