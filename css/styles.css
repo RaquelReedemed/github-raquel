@@ -308,6 +308,15 @@ footer .pie  {
 }
 
       
+/*Animaciones*/
+
+.imgGrid:hover {
+    transform: scale(0.95) translate(10px, 10px);
+
+    /*para torcen la imagen*/
+    /*transform: skew(25deg);*/
+    transition: .3s;
+}
 
 
 
