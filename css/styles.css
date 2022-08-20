@@ -275,7 +275,9 @@ footer {
         align-items: center;
     }
 
-
+.footer img {
+    width: 2.2rem;
+}
 
 footer .anuncioRedes .txtAnunRedes {
     color: #D6D5C9;
