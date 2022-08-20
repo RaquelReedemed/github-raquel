@@ -318,6 +318,16 @@ footer .pie  {
     transition: .3s;
 }
 
+.buscador:focus {
+    border-radius: 10px;
+    background-color: #e6dede;
+    transition: .3s;
+
+}
+
+input:hover{
+    background-color: #e6dede;
+}
 
 
 
