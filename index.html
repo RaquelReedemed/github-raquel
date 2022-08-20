@@ -5,6 +5,9 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--estilos copiados de la pagina animate.css-->
+  <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <!--estilos propio-->
   <link rel="stylesheet" href="./css/styles.css">
   <link rel="shorcut icon" href="./img/logo.png" />
   <title>grid</title>
@@ -106,32 +109,32 @@
 
         <div>
           <img class="imgGrid" src="./img/remera-lobo.png" alt="remera-lobo" />
-          <div claas="contButton"> <button>Comprar</button></div>
+          <div claas="contButton "> <button class="wow animate__animated animate__pulse">Comprar</button></div>
         </div>  
 
         <div>
           <img class="imgGrid" src="./img/remera-mario.png" alt="remera-mario" />
-          <div claas="contButton"> <button>Comprar</button></div>
+          <div claas="contButton"> <button class="wow animate__animated animate__pulse" >Comprar</button></div>
         </div>  
 
         <div>
           <img class="imgGrid" src="./img/remera-lobo.png" alt="remera-lobo" />
-          <div claas="contButton"> <button>Comprar</button></div>
+          <div claas="contButton"> <button class="wow animate__animated animate__pulse" >Comprar</button></div>
         </div>
 
         <div>
           <img class="imgGrid" src="./img/tazaBrujula.png" alt="taza-brujula" />
-          <div claas="contButton"> <button>Comprar</button></div>
+          <div claas="contButton"> <button class="wow animate__animated animate__pulse" >Comprar</button></div>
         </div>
 
         <div>
           <img class="imgGrid" src="./img/tazaSuper.png" alt="taza-super" />
-          <div claas="contButton"> <button>Comprar</button></div>
+          <div claas="contButton"> <button class="wow animate__animated animate__pulse" >Comprar</button></div>
         </div>
 
         <div> 
           <img class="imgGrid" src="./img/tazaHeroes.png" alt="taza-heroes" />
-          <div claas="contButton"><button>Comprar</button></div>
+          <div claas="contButton"><button class="wow animate__animated animate__pulse" >Comprar</button></div>
         </div>
 
       </div>
@@ -145,13 +148,11 @@
 
     <!--Whatsapp-->
 
-    <div class="wapp">
-      <img src="../img/logoWhatsApp.png" alt="WhatsApp">
+    <div class="wapp animate__animated animate__tada">
+      <img  src="../img/logoWhatsApp.png" alt="WhatsApp">
     </div>
 
-
-
-
+    
     <footer class="footer">
 
       <div class="anuncioRedes">
@@ -178,6 +179,18 @@
       <!--Derechos de autor-->
   
       <p class="pie">Todos los derechos reservados por Raquel Reedemed &copy;</p>
+
+       <!--WOW-->
+
+    
   
 
     </footer>
+
+    <script src="js/wow.min.js"></script>
+          <script>
+          new WOW().init();
+          </script>
+  
+
+  </body>
