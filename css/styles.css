@@ -1,0 +1,668 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Nunito:wght@400;600;900&family=PT+Sans:wght@400;700&display=swap');
+
+/* 
+font-family: 'Gentium Book Plus', serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'PT Sans', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /*outline: 1px solid white;*/
+}
+/*
+#0A100D BLACK
+#B9BAA3 GRIS OSCURO
+#D6D5C9 GRIS CLARO
+*/
+
+
+
+
+                            /*header*/
+
+.header {
+    /*position: sticky;
+    top: 0;*/
+    background-color: #0A100D;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.header .logo {
+    height: 5rem;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+
+.header .navBar .listUl .itemList a {
+    text-decoration: none;
+    color:#D6D5C9 ;
+} 
+
+/*.header .navBar .listUl .itemList a:hover {
+    color:#B9BAA3;
+    font-weight: bold;
+} */
+
+
+/*Barra buscadora*/
+
+.header .navBar .contBusc {
+    width: 18rem;
+    padding: 5px;
+    
+}
+
+.header .navBar .contBusc .buscador {
+    height: 1.5rem;
+    width: 18rem;
+    border-radius: 10px;
+    
+}
+
+.header .navBar .listUl {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*Banner*/
+
+.banner {
+    width: 100%;
+    margin-top: 2px;
+}
+
+
+                                      /*Anuncios*/
+
+.h1h2 {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    outline: 2px solid black
+}
+
+
+.anuncios {
+    display: flex;
+    font-size: 15px;
+    background-color: #D6D5C9;
+    margin-top: 2px;
+    flex-direction: column-reverse;
+    padding: 15px;
+}
+
+.anuncios .texto {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+
+}
+
+
+
+                                     /*Portadas*/
+
+.main-galeria {
+    margin-top: 2px;
+    
+} 
+
+
+.contenedorPortadas img {
+    width: 80vw;
+    border-radius: 15px;
+}
+
+.contenedorPortadas {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    background-color: #D6D5C9;
+    flex-wrap: wrap;
+}
+
+
+
+
+.contenedorPortadas .titulo a {
+    text-decoration: none;
+    color: #D6D5C9;
+}
+
+.contenedorPortadas .titulo {
+    background-color: #0A100D;
+    height: 50px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.contenedorPortadas .contTxt {
+    padding-bottom: 15px;
+
+}
+
+/*Imagenes*/
+
+main {
+    min-height: 80vh;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+.grid-container div {
+    display: flex;
+    flex-direction: column;
+}
+
+
+button {
+    height: 30px;
+    background-color: #0A100D;
+    color: #B9BAA3;
+    margin: 10px;
+
+}
+
+/*Enlace Absoluto*/
+
+
+.enlaceAbs  {
+    background-color: #D6D5C9;
+    text-align: center;
+    margin: 7px;
+
+}   
+.enlaceAbs a {
+    text-decoration: none;
+    color: #0A100D;
+}
+
+/*Whatsapp*/
+
+.wapp {
+    display: inline-block;
+    position: fixed;
+    top: 400px;
+    left: 90%;
+    } 
+    
+.wapp img {
+    border-radius: 50%;
+}    
+
+
+                       /* formularios */
+.formulario {
+display: flex;
+flex-direction: column-reverse;
+align-items: center;
+flex-wrap: wrap;
+                    }
+.contForm {
+    background-color: white;
+    padding: 15px;
+    margin: 15px;
+    
+}
+    
+
+.formulario .listUlCont {
+    list-style-type: none;
+    
+}
+
+.listUlCont img {
+    width: 2rem;
+}
+
+                         /* talles */
+
+.talles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    flex-wrap: wrap;
+}
+
+
+.contTalles {
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Footer*/
+
+footer {
+    background-color: #0A100D;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+footer .anuncioRedes .txtAnunRedes {
+    color: #D6D5C9;
+    padding: 10px;
+}
+
+footer .redes {
+    list-style: none;    
+    
+}
+
+footer .redes li {
+    display: inline-block;
+    padding: 2px;
+}
+
+
+footer .map iframe {
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    position: relative;
+    margin-top: 10px;
+
+
+}
+footer .pie  {
+    color: #D6D5C9;
+    text-align: center;
+    padding: 5px;
+    
+}
+
+      
+
+
+
+
+
+ 
+
+                          /*Media Queries*/
+
+   /*TABLETS*/                       
+
+@media (min-width:680px) {
+
+    .header {
+        position: sticky;
+        top: 0;
+        background-color: #0A100D;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+    .header .logo {
+        height: 7rem;
+        border-radius: 50%;
+        padding: 10px;
+    }
+
+    .header .navBar .listUl {
+        list-style: none;
+        display: flex;
+        width: 600px;
+        font-size: 20px;
+        margin: 10px;
+    
+    }
+
+    .header .navBar .contBusc .buscador {
+        width: 25rem;
+        height: 2rem;
+        border-radius: 10px;
+        display: flex;
+        width: 400px;
+    }
+
+    .header .navBar .contBusc {
+        width: 25rem;
+        padding: 5px;
+        margin-left: 18%;
+        
+    }
+
+    
+    /*ANUNCIOS*/
+
+    .h1h2 {
+        font-size: 20px;
+        padding: 20px;
+    }
+
+    .anuncios {
+        font-size: 16px;
+        padding: 30px;
+        
+    }
+
+    /*Portadas*/
+
+
+    .contenedorPortadas .titulo {
+        height: 60px;
+        
+    }
+
+    .contenedorPortadas .titulo {
+       font-size: 25px;
+    }
+
+    /*Imagenes*/
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr)
+        
+    }
+
+    .grid-container img {
+        width: 20rem;
+
+    }
+
+
+    /*talles*/
+
+    .contTalles {
+        font-size: 20px;
+    }
+
+    /* formularios */
+.contForm {
+    background-color: white;
+    padding: 50px;
+}
+
+   
+     
+}
+
+
+
+
+    /*PANTALLAS*/  
+
+@media (min-width:1024px) {
+
+    .header {
+        position: sticky;
+        top: 0;
+        background-color: #0A100D;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .header .logo {
+        height: 10rem;
+        border-radius: 50%;
+        padding: 15px;
+    }
+
+    .header .navBar {
+        margin-left: 20%;
+    }
+
+    .header .navBar .listUl {
+        list-style: none;
+        display: flex;
+        width: 600px;
+        font-size: 25px;
+    
+    }
+
+    .navBar {
+        width: 50rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+
+    .header .navBar .contBusc .buscador {
+        height: 2.5rem;
+        width: 37rem;
+        border-radius: 10px;
+       
+
+        
+    }
+
+    .header .navBar .contBusc {
+        width: 37rem;
+        padding: 20px;
+        margin-right: 22%;
+    
+        
+    }
+
+    form {
+        width: 700px;
+    }
+
+
+
+    .header .navBar .listUl .itemList a:hover {
+        color:#B9BAA3;
+        font-weight: bold;
+    } 
+
+
+    /*ANUNCIOS*/
+
+    .h1h2 {
+        font-size: 25px;
+        display: flex;
+        justify-content: space-around;
+        padding: 30px;
+        outline: 2px solid black
+    }
+
+    .anuncios {
+        font-size: 20px;
+        padding: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 2px;
+
+        
+    }
+
+
+
+    /*Portadas*/
+
+.main-galeria {
+    margin-top: 2px;
+    
+} 
+
+
+.contenedorPortadas img {
+    width: 45rem;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.contenedorPortadas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #D6D5C9;
+}
+
+
+
+
+.contenedorPortadas .titulo a {
+    text-decoration: none;
+    color: #D6D5C9;
+}
+
+.contenedorPortadas .titulo {
+    background-color: #0A100D;
+    height: 50px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorPortadas .contTxt {
+    padding-bottom: 15px;
+
+}
+
+.contTxt a:hover {
+    color:#B9BAA3;
+    font-weight: bold;
+}
+
+/* Imagenes */
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+        
+    }
+
+
+    .grid-container img {
+        width: 27rem;
+
+    }
+
+    button {
+        font-size: 25px;
+        height: 45px;
+    
+    }
+
+/*Enlace Absoluto*/
+
+
+.enlaceAbs  {
+    font-size: 20px;
+
+}      
+    
+    /*Whatsapp*/
+
+.wapp {
+    left: 95%;
+    } 
+
+
+    .wapp img {
+        width: 3rem;
+        border-radius: 70%;
+    } 
+
+/*talles*/
+
+.contTalles {
+    font-size: 25px;
+}
+
+
+    /*Formularios*/
+
+ .formulario {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+
+.contactos {
+    text-align: center;
+}
+
+.formContactos {
+    text-align: center;
+}
+
+.listUlCont li {
+    display: inline-block;
+}
+
+.titForm {
+    text-align: center;
+}
+  
+button:hover {
+    color:#B9BAA3;
+    font-weight: bold;
+} 
+
+
+    
+
+
+/*FOOTER*/
+
+footer {
+    background-color: #0A100D;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+}
+
+@media (min-width:1293px) {
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        
+        
+    }
+
+}
